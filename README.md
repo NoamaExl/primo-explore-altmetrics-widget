@@ -8,10 +8,11 @@
 
 For example, if you are developing a package for the Auto1 view
 
-- Add the file under primo-explore-devenv/primo-explore/custom/Auto1
+- Add the file under *primo-explore-devenv/primo-explore/custom/Auto1*
 
 - The content of the file should be:
 
+```
 {
   "name": "<your view code>",
   "version": "<your version>",
@@ -21,10 +22,14 @@ For example, if you are developing a package for the Auto1 view
     "primo-explore-altmetrics-widget": "0.0.1"
   }
 }
+```
 
 - go to your command line (in windows: type cmd in the start > run box)
 - navigate to the location of the package.json file
-    cd primo-explore-devenv/primo-explore/custom/Auto1
+   
+   ```
+      cd primo-explore-devenv/primo-explore/custom/Auto1
+   ```
 - type npm install
 - you will se a new folder was added in the same location named node_modules
 - Now you can see the widget in your full view once you find a record with a doi field
