@@ -2,7 +2,7 @@
 # Adding an altmetrics widget to the Primo full view
 
 
-##Usage
+## Usage
 
 - add a package.json file in your customization package folder root.
 
